@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+</head>
+<body>
+    <header>
+        <h1 id="site-title">Shivam's Profile</h1>
+        <p>Learning web development</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About me</h2>
+            <img
+                src="https://picsum.photos/120"
+                alt="Profile photo"
+                width="120"
+            style="border-radius: 8px;">
+            <p>Hi! I am Ravi, a beginner web developer
+            learning HTML in Bengaluru. I love building
+            things for the web.</p>
+            <h3>My hobbies</h3>
+            <ul>
+                <li>Coding</li>
+                <li>Reading tech blogs</li>
+                <li>Playing chess</li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>My skills</h2>
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                        <th>Years</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Beginner</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Learning</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contact">
+            <h2>Contact me</h2>
+            <form>
+                <label for="name">Your name</label><br>
+                <input
+                    type="text"
+                    id="name"
+                    class="form-input"
+                    placeholder="e.g. Priya"
+                    required
+                ><br><br>
+
+                <label for="email">Your email</label><br>
+                <input
+                    type="email"
+                    id="email"
+                    class="form-input"
+                    placeholder="you@email.com"
+                    required
+                ><br><br>
+
+                <label for="message">Message</label><br>
+                <textarea
+                    id="message"
+                    rows="4"
+                    placeholder="Write your message..."
+                ></textarea><br><br>
+
+                <button type="submit">Send message</button>
+            </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 Shivam's Profile</p>
+    <a
+      href="https://www.linkedin.com"
+      target="_blank"
+      rel="noopener"
+    >LinkedIn</a>
+  </footer>
+</body>
+</html>
+</body>
+</html>
