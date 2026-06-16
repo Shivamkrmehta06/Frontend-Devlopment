@@ -101,9 +101,98 @@
 // console.log(a);
 // const a = 10
 
-let i = 0;
-while(i<=1000){
-    console.log(i);
-    i++;
-}
+// let i = 0;
+// while(i<=1000){
+//     console.log(i);
+//     i++;
+// }
 
+// let car = {
+//   make: 'Dodge',
+//   model:'Dakota'
+// }
+// // Insert line of code here.
+// car.color="red"
+// console.log(`${car.make} ${car.model}, color: ${car.color}`);
+
+// let key = 'x'
+// let point = {
+//     x: 100,
+//     y: 200
+// }
+// // Insert line of code here.
+//console.log(point[key]);
+
+
+// let user = {
+//     name: "Ian",
+//     age: 44
+// }
+
+// for(const [key,value] of Object.entries(user)) console.log(key,value);
+// //Object.keys(user).forEach(key=>console.log(user[key]))
+// Object.keys(user).forEach(key=>console.log(user))
+
+// let user1 = {
+//     name: 'Alice'
+// }
+// let user2 = {
+//     name: 'Alice'
+// }
+// console.log(user1.name==user2.name)
+
+// let user1 = {
+//     name: 'Ian',
+//     age: 44
+// }
+// let user2 = user1;
+// user2.age = 40;
+// console.log(`${user2.name} ${user1.age}`);
+
+
+// let car1 = {
+//     make: 'Dodge',
+//     model: 'Viper'
+// }
+// let car2 = Object.assign({},car1,{model:"Nexon",transmission:"Manual",color:"Purple"
+// });
+// car1.color = 'green';
+// console.log(`${car2.make} ${car2.model} ${car2.transmission} ${car2.color}`);
+
+// let user={
+//     name:"username",
+//     email:"username@gmail.com"
+// }
+
+// user = Object.assign({},user,{location:"Mehta Tola",Occupation:"Student"})
+// console.log(user);
+
+
+// let car1 = {
+//     make: 'Dodge',
+//     model: 'Viper'
+// }
+// let car2 = { ...car1, model:'RAM', color: 'red'};
+// car1.color = 'green';
+// console.log(`${car2.make} ${car2.model} ${car2.color}`);
+
+
+// let car = { 
+//     make: 'Dodge',
+//     model: 'Viper'
+// }
+// // Insert line of code here.
+// delete car.model; 
+// Object.freeze(car)
+// car.make = 'Toyota'; 
+// car.color = 'red'; 
+// console.log(`${car.make} ${car.model} ${car.color}`); 
+
+
+let Car = function(make, model) {
+    // this.make = make;
+    // this.model = model;
+    return {make,model}
+}
+let car = Car("Tata","Nexon")
+console.log(`${car.make} ${car.model}`);

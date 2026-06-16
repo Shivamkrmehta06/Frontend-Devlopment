@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .practice{
+            border:solid black;
+            display: inline-block;
+            width:100px;
+            height:100px;
+            border-radius: 5px;
+            padding: 5px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="practice" id="orange" style="background-color: orange;"></div>
+    <div class="practice" id="yellow" style="background-color: yellow;"></div>
+    <div class="practice" id="pink" style="background-color: pink;"></div>
+    <div class="practice" id="aqua" style="background-color: aqua;"></div>
+</body>
+<script>
+    const button1 = document.querySelector('#orange');
+    const button2 = document.querySelector('#yellow');
+    const button3 = document.querySelector('#pink');
+    const button4 = document.querySelector('#aqua');
+    const body = document.querySelector('body')
+    button1.addEventListener('click',function(e){
+        body.style.backgroundColor='orange';
+    })
+    button2.addEventListener('click',function(e){
+        body.style.backgroundColor='yellow';
+    })
+    button3.addEventListener('click',function(e){
+        body.style.backgroundColor='pink';
+    })
+    button4.addEventListener('click',function(e){
+        body.style.backgroundColor='aqua';
+    })
+</script>
+</html>
