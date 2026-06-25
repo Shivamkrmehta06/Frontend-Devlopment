@@ -189,10 +189,28 @@
 // console.log(`${car.make} ${car.model} ${car.color}`); 
 
 
-let Car = function(make, model) {
-    // this.make = make;
-    // this.model = model;
-    return {make,model}
-}
-let car = Car("Tata","Nexon")
-console.log(`${car.make} ${car.model}`);
+// let Car = function(make, model) {
+//     // this.make = make;
+//     // this.model = model;
+//     return {make,model}
+// }
+// let car = Car("Tata","Nexon")
+// console.log(`${car.make} ${car.model}`);
+
+// console.log("5"-3) // type coercion - JS auto converts types in certain operations
+// console.log(0==[]);
+// console.log(Number.isNaN(NaN));
+
+//console.log(typeof null==='object');
+
+//console.log(1 + "1");        // 11
+// console.log(1 + +"1");       // 2
+//console.log([1,2] + [3,4]);  // 1 23 4
+//console.log(typeof NaN);     // number
+//console.log(null == 0);      // false
+//console.log(null >= 0);      // true
+
+//console.log(2+"22");
+
+
+
